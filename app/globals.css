@@ -1246,11 +1246,43 @@ a:focus-visible {
   font-size: 11px;
 }
 
+.contact-socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  margin-top: 22px;
+}
+
+.contact-socials a {
+  display: inline-flex;
+  min-height: 36px;
+  align-items: center;
+  gap: 9px;
+  padding: 0 3px 5px;
+  border-bottom: 1px solid rgba(242, 244, 239, 0.35);
+  color: rgba(242, 244, 239, 0.82);
+  font-size: 12px;
+  font-weight: 550;
+  transition: border-color 180ms ease, color 180ms ease, transform 180ms ease;
+}
+
+.contact-socials svg {
+  width: 17px;
+  height: 17px;
+}
+
+.contact-socials a:hover {
+  transform: translateY(-2px);
+  border-color: var(--leaf);
+  color: var(--leaf);
+}
+
 .site-footer {
   display: grid;
   min-height: 89px;
   align-items: center;
-  grid-template-columns: 1fr 1.5fr auto auto;
+  grid-template-columns: auto minmax(0, 1.5fr) auto auto;
   gap: 22px;
   padding: 16px max(48px, calc((100vw - 1320px) / 2));
   border-top: 1px solid var(--line);

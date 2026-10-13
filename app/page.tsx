@@ -1,6 +1,7 @@
 "use client";
 
 import { motion, useScroll, useSpring } from "framer-motion";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa6";
 
 const projects = [
   {
@@ -294,6 +295,16 @@ export default function Page() {
             <span>Start a conversation</span><span aria-hidden="true">↗</span>
           </a>
           <p className="contact-note">alexander.zgames@gmail.com</p>
+          <div className="contact-socials" aria-label="Social profiles">
+            <a href="https://www.linkedin.com/in/oleksandr-gordieiev-swe17/" target="_blank" rel="noreferrer" aria-label="Alex on LinkedIn">
+              <FaLinkedinIn aria-hidden="true" />
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/x-FrizBy-x" target="_blank" rel="noreferrer" aria-label="Alex on GitHub">
+              <FaGithub aria-hidden="true" />
+              <span>GitHub</span>
+            </a>
+          </div>
           </div>
         </section>
       </div>
