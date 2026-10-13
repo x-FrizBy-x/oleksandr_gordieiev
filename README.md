@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Alex | AI & Full-Stack Software Developer
+
+Personal portfolio for Alex, featuring two AI-focused products: **Jelaksy**, an AI project manager, and **Lurkk**, an AI scheduling agent that uses natural-language requests.
+
+The site is a responsive, animated single page built with Next.js. Product interface visuals are illustrative mockups, not live demos or screenshots of the actual products.
+
+## Featured Projects
+
+### Jelaksy
+
+An AI project manager that turns project context into clearer priorities and practical next steps.
+
+**Stack:** Next.js, React, TypeScript, Tailwind CSS, Node.js, PostgreSQL, Prisma, Ollama API.
+
+### Lurkk
+
+An AI scheduling agent that interprets natural-language requests and works with Google Calendar.
+
+**Stack:** HTML, CSS, JavaScript, Python, Google Calendar API.
+
+## Tech Stack
+
+- Next.js 16 and React 19
+- TypeScript
+- Tailwind CSS 4
+- Framer Motion for animation
+- React Icons for social icons
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies and start the development server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the local development server. |
+| `npm run lint` | Run ESLint. |
+| `npm run build` | Create a production build. |
+| `npm start` | Serve the production build. |
 
-## Learn More
+## Personalize
 
-To learn more about Next.js, take a look at the following resources:
+Update the project descriptions, technology stacks, contact email, and social profile URLs in `app/page.tsx`. The social URLs currently use placeholders. Global styles and responsive layouts are in `app/globals.css`; page title and description are in `app/layout.tsx`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Build the site with `npm run build`, then run `npm start` or deploy it to a platform that supports Next.js.
