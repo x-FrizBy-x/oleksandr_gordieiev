@@ -1,8 +1,8 @@
 # Alex | AI & Full-Stack Software Developer
 
-Personal portfolio for Alex, featuring two AI-focused products: **Jelaksy**, an AI project manager, and **Lurkk**, an AI scheduling agent that uses natural-language requests.
+My Personal portfolio, featuring two AI-focused products: **Jelaksy**, an AI project manager, and **Lurkk**, an AI scheduling agent that uses natural-language requests.
 
-The site is a responsive, animated single page built with Next.js. Product interface visuals are illustrative mockups, not live demos or screenshots of the actual products.
+The site is a responsive, animated single page built with Next.js and Framer Motion. Product interface visuals are illustrative mockups, not live demos or screenshots of the actual products.
 
 ## Featured Projects
 
@@ -48,7 +48,8 @@ Open [http://localhost:3000](http://localhost:3000) to view the site.
 
 ## Personalize
 
-Update the project descriptions, technology stacks, contact email, and social profile URLs in `app/page.tsx`. The social URLs currently use placeholders. Global styles and responsive layouts are in `app/globals.css`; page title and description are in `app/layout.tsx`.
+Update the project descriptions, technology stacks, contact email, and social profile URLs in `app/page.tsx`. Global styles and responsive layouts are in `app/globals.css`.
+Page title and description are in `app/layout.tsx`.
 
 ## Deployment
 
