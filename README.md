@@ -2,7 +2,16 @@
 
 My Personal portfolio, featuring two AI-focused products: **Jelaksy**, an AI project manager, and **Lurkk**, an AI scheduling agent that uses natural-language requests.
 
-The site is a responsive, animated single page built with Next.js and Framer Motion. Product interface visuals are illustrative mockups, not live demos or screenshots of the actual products.
+The site is a responsive multi-page portfolio built with the Next.js App Router. Product interface visuals are illustrative mockups, not live demos or screenshots of the actual products.
+
+## Pages
+
+- `/` — Introduction and featured projects
+- `/projects` — Project details and technology stacks
+- `/experience` — Project-based development experience
+- `/education` — Areas of continued learning
+- `/about` — Development approach
+- `/contact` — Email and social links
 
 ## Featured Projects
 
@@ -48,7 +57,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the site.
 
 ## Personalize
 
-Update the project descriptions, technology stacks, contact email, and social profile URLs in `app/page.tsx`. Global styles and responsive layouts are in `app/globals.css`.
+Update project descriptions and technology stacks in `app/projects.ts`, contact details in `app/contact/page.tsx`, and social profile URLs in that same page. Shared page navigation is in `app/site-chrome.tsx`; global styles and responsive layouts are in `app/globals.css`.
 Page title and description are in `app/layout.tsx`.
 
 ## Deployment

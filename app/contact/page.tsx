@@ -1,0 +1,25 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact | Alex",
+  description: "Get in touch with Alex about useful software and AI products.",
+};
+
+export default function ContactPage() {
+  return (
+    <main className="page-wrap contact-page">
+      <div className="contact-copy">
+        <p className="eyebrow">OPEN TO GOOD PROBLEMS</p>
+        <h1>Let’s make something useful.</h1>
+        <p>Have an idea, a tricky workflow, or a product that could use a thoughtful technical partner? I’d be glad to hear about it.</p>
+      </div>
+      <div className="contact-card">
+        <p className="contact-card-label">START A CONVERSATION</p>
+        <a className="contact-email" href="mailto:alexander.zgames@gmail.com">alexander.zgames@gmail.com</a>
+        <div className="contact-divider" />
+        <a className="social-link" href="https://www.linkedin.com/in/oleksandr-gordieiev-swe17/" target="_blank" rel="noreferrer"><span>LinkedIn</span><span aria-hidden="true">↗</span></a>
+        <a className="social-link" href="https://github.com/x-FrizBy-x" target="_blank" rel="noreferrer"><span>GitHub</span><span aria-hidden="true">↗</span></a>
+      </div>
+    </main>
+  );
+}
