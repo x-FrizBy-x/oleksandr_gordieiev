@@ -54,12 +54,3 @@ Open [http://localhost:3000](http://localhost:3000) to view the site.
 | `npm run lint` | Run ESLint. |
 | `npm run build` | Create a production build. |
 | `npm start` | Serve the production build. |
-
-## Personalize
-
-Update project descriptions and technology stacks in `app/projects.ts`, contact details in `app/contact/page.tsx`, and social profile URLs in that same page. Shared page navigation is in `app/site-chrome.tsx`; global styles and responsive layouts are in `app/globals.css`.
-Page title and description are in `app/layout.tsx`.
-
-## Deployment
-
-Build the site with `npm run build`, then run `npm start` or deploy it to a platform that supports Next.js.
