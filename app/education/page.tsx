@@ -9,19 +9,19 @@ const learningAreas = [
   {
     number: "1",
     title: "Odessa Lyceum № 117",
-    description: "Finished the secondary education with honors.",
+    description: "Finished the secondary education with honors. (2018 - 2024)",
     topics: "Mathematics · Physics · English · Chemistry",
   },
   {
     number: "2",
     title: "Odessa National Polytechnic University (ONPU)",
-    description: "Studied Computer Science and Software Engineering, focusing on web development and backend systems.",
+    description: "Studied Computer Science and Software Engineering, focusing on web development and backend systems. (2024 - 2025)",
     topics: "Python · HTML · CSS · JavaScript · PostgreSQL",
   },
   {
     number: "3",
     title: "Wien University of Technology (TU Wien)",
-    description: "Entered the Bachelor's program in Informatics",
+    description: "Entered the Bachelor's program in Informatics (2026 - 2029)",
     topics: "Algorithms · Data Structures · Software Engineering · Databases",
   },
 ];

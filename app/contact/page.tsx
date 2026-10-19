@@ -10,8 +10,8 @@ export default function ContactPage() {
     <main className="page-wrap contact-page">
       <div className="contact-copy">
         <p className="eyebrow">OPEN TO GOOD PROBLEMS</p>
-        <h1>Let’s make something useful.</h1>
-        <p>Have an idea, a tricky workflow, or a product that could use a thoughtful technical partner? I’d be glad to hear about it.</p>
+        <h1>Let’s connect.</h1>
+        <p>Have an idea, a tricky workflow, or a new opportunity? I’d be glad to hear about it.</p>
       </div>
       <div className="contact-card">
         <p className="contact-card-label">START A CONVERSATION</p>
