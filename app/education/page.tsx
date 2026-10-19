@@ -7,22 +7,22 @@ export const metadata: Metadata = {
 
 const learningAreas = [
   {
-    number: "01",
-    title: "AI product development",
-    description: "Integrating language models into practical workflows, with attention to the experience around the model as well as the model itself.",
-    topics: "LLM integration · Ollama · AI-assisted workflows",
+    number: "1",
+    title: "Odessa Lyceum № 117",
+    description: "Finished the secondary education with honors.",
+    topics: "Mathematics · Physics · English · Chemistry",
   },
   {
-    number: "02",
-    title: "Full-stack systems",
-    description: "Building web products across the client, server, data layer, and the APIs that connect them.",
-    topics: "Next.js · TypeScript · Node.js · PostgreSQL · Prisma",
+    number: "2",
+    title: "Odessa National Polytechnic University (ONPU)",
+    description: "Studied Computer Science and Software Engineering, focusing on web development and backend systems.",
+    topics: "Python · HTML · CSS · JavaScript · PostgreSQL",
   },
   {
-    number: "03",
-    title: "Product design and usability",
-    description: "Turning complex tasks into understandable interfaces that help people make progress with less friction.",
-    topics: "Product thinking · Interaction design · Workflow clarity",
+    number: "3",
+    title: "Wien University of Technology (TU Wien)",
+    description: "Entered the Bachelor's program in Informatics",
+    topics: "Algorithms · Data Structures · Software Engineering · Databases",
   },
 ];
 
@@ -31,7 +31,7 @@ export default function EducationPage() {
     <main className="page-wrap page-content">
       <header className="page-intro">
         <p className="eyebrow">EDUCATION & CONTINUED LEARNING</p>
-        <h1>Learning by making things work.</h1>
+        <h1>I learn by making things work.</h1>
         <p>I keep developing my skills through building, experimenting, and studying the systems behind useful software.</p>
       </header>
       <section className="learning-list" aria-label="Learning areas">
