@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   title: "Alex | AI & Full-Stack Software Developer",
   description:
     "Alex builds practical AI products and full-stack software, including Jelaksy and Lurkk.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

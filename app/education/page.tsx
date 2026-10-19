@@ -8,9 +8,9 @@ export const metadata: Metadata = {
 const learningAreas = [
   {
     number: "1",
-    title: "Odessa Lyceum № 117",
-    description: "Finished the secondary education with honors. (2018 - 2024)",
-    topics: "Mathematics · Physics · English · Chemistry",
+    title: "Wien University of Technology (TU Wien)",
+    description: "Entered the Bachelor's program in Informatics (2026 - 2029)",
+    topics: "Algorithms · Data Structures · Software Engineering · Databases",
   },
   {
     number: "2",
@@ -20,9 +20,9 @@ const learningAreas = [
   },
   {
     number: "3",
-    title: "Wien University of Technology (TU Wien)",
-    description: "Entered the Bachelor's program in Informatics (2026 - 2029)",
-    topics: "Algorithms · Data Structures · Software Engineering · Databases",
+    title: "Odessa Lyceum № 117",
+    description: "Finished the secondary education with honors. (2018 - 2024)",
+    topics: "Mathematics · Physics · English · Chemistry",
   },
 ];
 
