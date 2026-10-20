@@ -21,7 +21,7 @@ const learningAreas = [
   {
     number: "3",
     title: "Odessa Lyceum № 117",
-    description: "Finished the secondary education with honors. (2018 - 2024)",
+    description: "Finished the secondary education with honors. (2014 - 2024)",
     topics: "Mathematics · Physics · English · Chemistry",
   },
 ];
