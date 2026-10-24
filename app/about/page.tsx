@@ -37,7 +37,7 @@ export default function AboutPage() {
           <p>I work across the data model, AI integrations, backend, and frontend, with a focus on making each part support the same clear experience.</p>
           <p>My approach is practical: use AI where it genuinely improves a workflow, build the supporting software carefully, and keep the result understandable and ready to grow.</p>
           <div className="principles" aria-label="Development principles">
-            {principles.map((principle, index) => <div className="principle" key={principle}><span>0{index + 1}</span>{principle}</div>)}
+            {principles.map((principle, index) => <div className="principle" key={principle}><span>{index + 1}</span>{principle}</div>)}
           </div>
         </div>
       </div>
