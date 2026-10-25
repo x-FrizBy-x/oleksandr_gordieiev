@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Experience | Alex",
-  description: "Alex’s work experience in AI model training, full-stack engineering, and frontend development.",
+  title: "Experience",
+  description: "Oleksandr’s work experience in AI model training, full-stack engineering, and frontend development.",
 };
 
 type WorkEntry = {
@@ -20,15 +20,15 @@ const workEntries: WorkEntry[] = [
     company: "Data Annotation",
     role: "AI Trainer (Freelancer)",
     period: "May 2026 – Present",
-    location: "Vienna",
+    location: "Vienna, Austria",
     bullets: [
-      "Evaluated AI-generated responses for factual accuracy, relevance, clarity, and instruction compliance.",
-      "Annotated and categorized text data according to project-specific guidelines to support model training and evaluation.",
-      "Compared alternative AI-generated responses and ranked them based on quality, helpfulness, and correctness.",
-      "Identified hallucinations, logical inconsistencies, biased language, and unsupported claims in model outputs.",
-      "Created and refined prompts to test model behavior and improve response quality across different tasks.",
-      "Reviewed annotation results for consistency and corrected labeling errors to maintain data quality.",
-      "Followed confidentiality, data handling, and project-specific quality standards while working with AI training datasets.",
+      "Evaluate AI-generated responses for factual accuracy, relevance, clarity, and instruction compliance.",
+      "Annotate and categorize text data according to project-specific guidelines to support model training and evaluation.",
+      "Compare alternative AI-generated responses and rank them based on quality, helpfulness, and correctness.",
+      "Identify hallucinations, logical inconsistencies, biased language, and unsupported claims in model outputs.",
+      "Create and refine prompts to test model behavior and improve response quality across different tasks.",
+      "Review annotation results for consistency and correct labeling errors to maintain data quality.",
+      "Follow confidentiality, data handling, and project-specific quality standards while working with AI training datasets.",
     ],
     skills: ["Prompt Engineering", "Data Annotation", "AI Model Evaluation", "Quality Assurance"],
   },
@@ -36,7 +36,7 @@ const workEntries: WorkEntry[] = [
     company: "Phobosys Team",
     role: "Full Stack Engineer (Part-time)",
     period: "May 2025 – May 2026",
-    location: "Odessa",
+    location: "Odesa, Ukraine",
     summary: "An international team developing products for US companies that specialize in web hosting.",
     bullets: [
       "Developed 15+ REST API endpoints using Node.js and Express.js for domain management, hosting plan configuration, and customer account operations.",
@@ -57,7 +57,7 @@ const workEntries: WorkEntry[] = [
     company: "Odesa Polytechnic National University (OPNU)",
     role: "Frontend Developer (Internship)",
     period: "November 2023 – March 2025",
-    location: "Odessa",
+    location: "Odesa, Ukraine",
     bullets: [
       "Developed 20+ reusable React components using TypeScript, reducing duplicated UI code by 30% across 5 application modules.",
       "Built 15+ responsive pages using React, Next.js, and Tailwind CSS, supporting desktop, tablet, and mobile screen sizes.",
