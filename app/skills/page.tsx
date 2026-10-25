@@ -1,19 +1,27 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Skills | Alex",
-  description: "Alex’s languages, frameworks, tools, and AI tooling.",
+  title: "Skills",
+  description: "Oleksandr’s languages, frameworks, tools, and AI tooling.",
 };
 
-const skillGroups: { label: string; items: string[] }[] = [
-  { label: "Languages", items: ["CSS 3", "HTML 5", "JavaScript ES6+", "Python", "SQL", "TailwindCSS", "TypeScript"] },
-  { label: "Frontend", items: ["HTTP", "Node.js", "npm", "React", "Vue.js"] },
-  { label: "Backend", items: ["Express.js", "FastAPI", "Neon", "Next.js", "Nginx", "PostgreSQL", "Prisma", "REST APIs"] },
-  { label: "AI Tools", items: ["Claude", "GitHub Copilot", "LangChain", "LLMs", "NLP", "Ollama"] },
-  { label: "Tools", items: ["Agile Scrum", "Chrome DevTools", "Docker", "Git", "GitHub", "Vercel"] },
+type SkillGroup = {
+  label: string;
+  items: string[];
+};
+
+const skillGroups: SkillGroup[] = [
+  { label: "Programming languages", items: ["CSS 3", "HTML 5", "JavaScript ES6+", "Python", "SQL", "TypeScript"] },
+  { label: "Frontend", items: ["Next.js", "React", "Tailwind CSS", "Vue.js"] },
+  { label: "Backend", items: ["Express.js", "FastAPI", "HTTP", "Node.js", "Nginx", "PostgreSQL", "Prisma", "REST APIs"] },
+  { label: "AI tools", items: ["Claude", "GitHub Copilot", "LangChain", "Llama 3.1", "LLMs", "NLP", "Ollama", "Qwen3 8B"] },
+  { label: "Tools", items: ["Agile Scrum", "Chrome DevTools", "Docker", "Git", "GitHub", "Neon", "npm", "Vercel"] },
   { label: "Testing", items: ["Jest", "React Testing Library", "Supertest", "Vitest"] },
-  { label: "Communication", items: ["English (Work Proficiency)", "German (Work Proficiency)"] },
 ];
+
+const spokenLanguages = ["Ukrainian (Native)", "English (Work Proficiency)", "German (Work Proficiency)"];
+
+const coreSkills = new Set(["TypeScript", "Python", "React", "Next.js", "Node.js", "PostgreSQL", "Claude", "GitHub Copilot", "Chrome DevTools", "Git", "Vitest"]);
 
 export default function SkillsPage() {
   return (
@@ -23,18 +31,28 @@ export default function SkillsPage() {
         <h1>The tools I build with.</h1>
         <p>From React interfaces to Node.js and Python backends, databases, and the AI tooling that ties them together.</p>
       </header>
-      <section className="learning-list" aria-label="Skills">
-        {skillGroups.map((group, index) => (
-          <article className="learning-entry" key={group.label}>
-            <span className="learning-number">{index + 1}</span>
-            <div>
-              <h2>{group.label}</h2>
-              <ul className="stack-list" aria-label={`${group.label} skills`}>
-                {group.items.map((item) => <li key={item}>{item}</li>)}
+      <p className="skills-legend"><span aria-hidden="true" /> Core stack: what I reach for first</p>
+      <section className="skills-grid" aria-label="Skills">
+        {skillGroups.map((group, index) => {
+          const headingId = `skills-${index + 1}`;
+          return (
+            <article className="skill-card" key={group.label}>
+              <p className="eyebrow">{index + 1}</p>
+              <h2 id={headingId}>{group.label}</h2>
+              <ul className="stack-list stack-list--lg" aria-labelledby={headingId}>
+                {[...group.items].sort((a, b) => Number(coreSkills.has(b)) - Number(coreSkills.has(a))).map((item) => (
+                  <li key={item} className={coreSkills.has(item) ? "is-core" : undefined}>{item}</li>
+                ))}
               </ul>
-            </div>
-          </article>
-        ))}
+            </article>
+          );
+        })}
+      </section>
+      <section className="skills-spoken" aria-labelledby="skills-spoken">
+        <h2 id="skills-spoken" className="eyebrow">Spoken languages</h2>
+        <ul className="stack-list stack-list--lg">
+          {spokenLanguages.map((language) => <li key={language}>{language}</li>)}
+        </ul>
       </section>
     </main>
   );

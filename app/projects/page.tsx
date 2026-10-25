@@ -3,8 +3,8 @@ import ProjectCard from "../components/project-card";
 import { projects } from "../projects";
 
 export const metadata: Metadata = {
-  title: "Projects | Alex",
-  description: "Browse Alex’s AI and full-stack software projects.",
+  title: "Projects",
+  description: "Browse Oleksandr’s AI and full-stack software projects.",
 };
 
 export default function ProjectsPage() {

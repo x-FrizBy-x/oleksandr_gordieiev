@@ -7,10 +7,10 @@ export default function HomePage() {
     <main>
       <section className="home-hero page-wrap" aria-labelledby="home-title">
         <div className="hero-copy">
-          <p className="eyebrow"><span className="availability-dot" /> AI & full-stack software developer</p>
+          <p className="eyebrow"><span className="availability-dot" /> Full-Stack Engineer with AI expertise</p>
           <h1 id="home-title">Thoughtful software, built all the way through.</h1>
           <p className="hero-description">
-            I’m Alex. I turn useful ideas into clear, capable products, from the first product question to the details that make software feel right.
+            I’m Oleksandr. I turn useful ideas into clear, capable products, from the first product question to the details that make software feel right.
           </p>
           <div className="hero-actions">
             <Link className="button button-dark" href="/projects">Explore my projects <span aria-hidden="true">↗</span></Link>
@@ -24,7 +24,7 @@ export default function HomePage() {
           <div className="workspace-window">
             <div className="workspace-bar"><span className="workspace-dots"><i /><i /><i /></span><span>jelaksy / overview</span><span className="workspace-menu">•••</span></div>
             <div className="workspace-content">
-              <div className="workspace-heading"><span>MONDAY, OCTOBER 19</span><strong>Good morning, Alex</strong><small>Here’s what’s moving today.</small></div>
+              <div className="workspace-heading"><span>MONDAY, OCTOBER 19</span><strong>Good morning, Oleksandr</strong><small>Here’s what’s moving today.</small></div>
               <div className="workspace-task"><span className="task-icon task-done">✓</span><span><b>Finalize launch plan</b><small>Product launch · Today</small></span><span className="task-check">Done</span></div>
               <div className="workspace-task"><span className="task-icon">2</span><span><b>Review onboarding flow</b><small>Product launch · 2:30 PM</small></span><span className="task-more">···</span></div>
               <div className="workspace-insight"><span className="insight-mark">✳</span><span><small>JELAKSY AI</small><b>Two tasks are ready for your attention.</b></span><span aria-hidden="true">↗</span></div>
