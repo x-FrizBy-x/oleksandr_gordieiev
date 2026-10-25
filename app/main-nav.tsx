@@ -19,7 +19,6 @@ export function MainNav() {
       {navItems.map(({ href, label }) => (
         <Link key={href} href={href} aria-current={pathname === href ? "page" : undefined}>
           {label}
-          
         </Link>
       ))}
     </nav>

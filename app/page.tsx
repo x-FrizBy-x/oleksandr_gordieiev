@@ -18,7 +18,7 @@ export default function HomePage() {
           </div>
         </div>
 
-        <div className="hero-art" aria-label="A preview of an AI-assisted project workspace">
+        <div className="hero-art" role="img" aria-label="A preview of an AI-assisted project workspace">
           <div className="art-orbit art-orbit-one" />
           <div className="art-orbit art-orbit-two" />
           <div className="workspace-window">

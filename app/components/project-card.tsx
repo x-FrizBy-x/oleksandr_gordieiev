@@ -5,7 +5,7 @@ export default function ProjectCard({ project }: { project: Project }) {
 
   return (
     <article className="project-card">
-      <div className="project-preview" aria-label={`${project.name} interface concept`}>
+      <div className="project-preview" role="img" aria-label={`${project.name} interface concept`}>
         <div className="preview-panel">
           <div className="preview-topbar"><span className="preview-brand">{project.name.toLowerCase()}</span><span>{isScheduling ? "SMART SCHEDULING" : "MY WORKSPACE"}</span><span aria-hidden="true">•••</span></div>
           <div className="preview-body">

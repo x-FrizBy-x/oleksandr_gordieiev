@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Contact | Alex",
-  description: "Get in touch with Alex about useful software and AI products.",
+  title: "Contact | Oleksandr",
+  description: "Get in touch with Oleksandr about useful software and AI products.",
 };
 
 export default function ContactPage() {
@@ -15,7 +15,7 @@ export default function ContactPage() {
       </div>
       <div className="contact-card">
         <p className="contact-card-label">START A CONVERSATION</p>
-        <a className="contact-email" href="mailto:alexander.zgames@gmail.com">alexander.zgames@gmail.com</a>
+        <a className="contact-email" href="mailto:gordieievoleksandr17@gmail.com">gordieievoleksandr17@gmail.com</a>
         <div className="contact-divider" />
         <a className="social-link" href="https://www.linkedin.com/in/oleksandr-gordieiev-swe17/" target="_blank" rel="noreferrer"><span>LinkedIn</span><span aria-hidden="true">↗</span></a>
         <a className="social-link" href="https://github.com/x-FrizBy-x" target="_blank" rel="noreferrer"><span>GitHub</span><span aria-hidden="true">↗</span></a>

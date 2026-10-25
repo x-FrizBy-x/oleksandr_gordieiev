@@ -8,8 +8,8 @@ The site is a responsive multi-page portfolio built with the Next.js App Router.
 
 - `/` — Introduction and featured projects
 - `/projects` — Project details and technology stacks
-- `/experience` — Project-based development experience
-- `/education` — Areas of continued learning
+- `/experience` — Work experience
+- `/education` — Education history
 - `/about` — Development approach
 - `/contact` — Email and social links
 
