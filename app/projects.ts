@@ -14,8 +14,8 @@ export const projects: Project[] = [
     name: "Jelaksy",
     type: "AI project manager",
     description:
-      "Turns project context into clear priorities and practical next steps, so teams can spend less time organizing work and more time moving it forward.",
-    stack: ["Next.js", "TypeScript", "React", "Tailwind CSS", "Node.js", "PostgreSQL", "Prisma", "Ollama API"],
+      "An AI-powered SaaS platform that transforms project ideas into a structured workflow, with clear priorities and practical next steps.",
+    stack: ["Next.js", "React", "TypeScript", "Python", "FastAPI", "PostgreSQL", "Qwen3:8b", "LangChain", "Docker", "Vercel"],
     previewLabel: "MONDAY · PROJECT OVERVIEW",
     previewTitle: "Product launch",
     previewRows: [["Finalize launch plan", "Today"], ["Review onboarding flow", "2:30 PM"]],
@@ -23,10 +23,10 @@ export const projects: Project[] = [
   },
   {
     name: "Lurkk",
-    type: "AI scheduling agent with NLP",
+    type: "AI calendar assistant",
     description:
-      "Understands scheduling requests in natural language and helps turn the back-and-forth of finding time into a simple conversation.",
-    stack: ["HTML", "CSS", "JavaScript", "Python", "Google Calendar API"],
+      "An AI calendar assistant that converts natural-language requests into calendar actions: creating, deleting, and rescheduling events (about 70% accuracy across 50 test requests).",
+    stack: ["Python", "FastAPI", "Llama3.1", "Google Calendar API", "OAuth 2.0"],
     previewLabel: "YOUR WEEK · SMART SCHEDULING",
     previewTitle: "Find a little focus time.",
     previewRows: [["Find 30 min with Sam", "Tomorrow"], ["Best match", "10:30 AM"]],

@@ -142,6 +142,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .experience-index, .learning-number { padding-top: 3px; color: var(--accent); font-family: var(--font-mono); font-size: 11px; }
 .experience-content { max-width: 720px; }
 .experience-content h2, .learning-entry h2 { margin: 7px 0 4px; font-size: 25px; font-weight: 500; letter-spacing: -.5px; }
+.entry-summary { max-width: 650px; margin: 10px 0 0; color: #77756f; font-size: 14px; font-style: italic; line-height: 1.7; }
 .entry-bullets { max-width: 650px; margin: 12px 0 18px; padding-left: 18px; color: #6f6c65; font-size: 15px; line-height: 1.8; list-style: disc; }
 .entry-bullets li + li { margin-top: 4px; }
 .entry-bullets li::marker { color: var(--accent); }

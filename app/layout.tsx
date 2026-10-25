@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Alex | AI & Full-Stack Software Developer",
+  title: "Oleksandr | Full-Stack Engineer with AI expertise",
   description:
-    "Alex builds practical AI products and full-stack software, including Jelaksy and Lurkk.",
+    "Oleksandr builds practical AI products and full-stack software, including Jelaksy and Lurkk.",
   icons: {
     icon: "/favicon.svg",
   },
