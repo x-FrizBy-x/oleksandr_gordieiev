@@ -11,7 +11,7 @@ export default function ContactPage() {
       <div className="contact-copy">
         <p className="eyebrow">OPEN TO GOOD PROBLEMS</p>
         <h1>Let’s connect.</h1>
-        <p>Have an idea, a tricky workflow, or a new opportunity? I’d be glad to hear about it.</p>
+        <p>Have an idea, a tricky workflow, or a new opportunity? I’d be glad to hear about it. I’m based in Vienna.</p>
       </div>
       <div className="contact-card">
         <p className="contact-card-label">START A CONVERSATION</p>

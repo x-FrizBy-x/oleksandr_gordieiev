@@ -14,7 +14,7 @@ export default function AboutPage() {
       <header className="page-intro">
         <p className="eyebrow">A LITTLE ABOUT ME</p>
         <h1>I like making complex things feel simple.</h1>
-        <p>I’m Alex, an AI and full-stack software developer. I enjoy taking a problem from its first product question all the way to the interface someone uses.</p>
+        <p>I’m Alex, a full-stack engineer with AI expertise and three years of combined experience across React frontends, Node.js backends, and web hosting infrastructure.</p>
       </header>
       <div className="about-grid">
         <aside className="about-aside">
@@ -34,7 +34,7 @@ export default function AboutPage() {
         </aside>
         <div className="about-copy">
           <h2>One person, from the first sketch to the working product.</h2>
-          <p>I work across the data model, AI integrations, backend, and frontend, with a focus on making each part support the same clear experience.</p>
+          <p>I build reusable UI components, design REST APIs, and optimize PostgreSQL queries, working with TypeScript, Next.js, Express.js, Docker, and Git-based and AI-assisted workflows.</p>
           <p>My approach is practical: use AI where it genuinely improves a workflow, build the supporting software carefully, and keep the result understandable and ready to grow.</p>
           <div className="principles" aria-label="Development principles">
             {principles.map((principle, index) => <div className="principle" key={principle}><span>{index + 1}</span>{principle}</div>)}
