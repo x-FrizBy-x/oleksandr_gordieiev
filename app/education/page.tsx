@@ -19,16 +19,26 @@ const educationEntries: EducationEntry[] = [
     degree: "Bachelor in Informatics",
     period: "October 2025 – July 2028",
     location: "Vienna, Austria",
-    // TODO: verify these against the actual TU Wien curriculum.
     bullets: [
       "Programming fundamentals and software design",
       "Algorithms and data structures",
       "Discrete mathematics and algebra",
-      "Analysis and calculus",
+      "Learning analysis and calculus",
       "Theoretical computer science and logic",
     ],
   },
-  // TODO: fill in — template entry with placeholders; replace or delete before publishing.
+  {
+    institution: "Odesa Polytechnic National University",
+    degree: "Software Engineering",
+    period: "September 2023 – June 2025",
+    location: "Odesa, Ukraine",
+    bullets: [
+      "Core mathematics and programming fundamentals",
+      "Software Development Life Cycle and project management",
+      "Version Control Basics: Git and GitHub",
+      "Requirements & Analysis: user needs and technical specifications",
+    ],
+  },
   {
     institution: "Odesa Lyceum №117",
     degree: "Secondary education",
