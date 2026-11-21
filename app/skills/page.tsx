@@ -11,15 +11,15 @@ type SkillGroup = {
 };
 
 const skillGroups: SkillGroup[] = [
-  { label: "Programming languages", items: ["CSS 3", "HTML 5", "JavaScript ES6+", "Python", "SQL", "TypeScript"] },
+  { label: "Programming languages", items: ["Bash", "CSS 3", "HTML 5", "JavaScript ES6+", "Python", "Rust", "SQL", "TypeScript"] },
   { label: "Frontend", items: ["Next.js", "React", "Tailwind CSS", "Vue.js"] },
-  { label: "Backend", items: ["Express.js", "FastAPI", "HTTP", "Node.js", "Nginx", "PostgreSQL", "Prisma", "REST APIs"] },
-  { label: "AI tools", items: ["Claude", "GitHub Copilot", "LangChain", "Llama 3.1", "LLMs", "NLP", "Ollama", "Qwen3 8B"] },
-  { label: "Tools", items: ["Agile Scrum", "Chrome DevTools", "Docker", "Git", "GitHub", "Neon", "npm", "Vercel"] },
+  { label: "Backend", items: ["Django", "Express.js", "FastAPI", "Flask", "HTTP", "Node.js", "Nginx", "PostgreSQL", "Prisma", "REST APIs"] },
+  { label: "AI tools", items: ["Claude", "Embeddings", "GitHub Copilot", "LangChain", "LangGraph", "Llama 3.1", "LLMs", "NLP", "Ollama", "Qwen3 8B", "RAG", "Unsloth", "Vector databases"] },
+  { label: "Tools", items: ["Agile Scrum", "AWS", "Chrome DevTools", "Docker", "Git", "GitHub", "GitHub Actions", "JIRA", "Linux", "Neon", "npm", "Vercel"] },
   { label: "Testing", items: ["Jest", "React Testing Library", "Supertest", "Vitest"] },
 ];
 
-const spokenLanguages = ["Ukrainian (Native)", "English (Work Proficiency)", "German (Work Proficiency)"];
+const spokenLanguages = ["Ukrainian (Native)", "English (C1)", "German (C1)"];
 
 const coreSkills = new Set(["TypeScript", "Python", "React", "Next.js", "Node.js", "PostgreSQL", "Claude", "GitHub Copilot", "Chrome DevTools", "Git", "Vitest"]);
 

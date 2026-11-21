@@ -15,7 +15,7 @@ export default function AboutPage() {
       <header className="page-intro">
         <p className="eyebrow">A LITTLE ABOUT ME</p>
         <h1>I like making complex things feel simple.</h1>
-        <p>I’m Oleksandr, a full-stack engineer with AI expertise and nearly three years of combined experience across React frontends, Node.js backends, and web hosting infrastructure.</p>
+        <p>I’m Oleksandr, a full-stack engineer with AI expertise and three years of hands-on experience across an internship, part-time, and freelance roles, building web applications, REST APIs, and AI-powered products.</p>
       </header>
       <div className="about-grid">
         <aside className="about-aside">

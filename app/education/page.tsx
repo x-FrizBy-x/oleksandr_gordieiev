@@ -29,8 +29,8 @@ const educationEntries: EducationEntry[] = [
   },
   {
     institution: "Odesa Polytechnic National University",
-    degree: "Software Engineering",
-    period: "September 2023 – June 2025",
+    degree: "Bachelor in Software Engineering",
+    period: "September 2023 – March 2025",
     location: "Odesa, Ukraine",
     bullets: [
       "Core mathematics and programming fundamentals",
