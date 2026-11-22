@@ -29,6 +29,9 @@ export default function ProjectCard({ project }: { project: Project }) {
         <ul className="stack-list" aria-label={`Technology stack for ${project.name}`}>
           {project.stack.map((technology) => <li key={technology}>{technology}</li>)}
         </ul>
+        <div className="project-links">
+          <a className="button button-outline" href={project.repoUrl} target="_blank" rel="noreferrer">View on GitHub <span aria-hidden="true">↗</span><span className="sr-only"> ({project.name}, opens in a new tab)</span></a>
+        </div>
       </div>
     </article>
   );

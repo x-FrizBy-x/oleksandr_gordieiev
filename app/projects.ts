@@ -3,6 +3,7 @@ export type Project = {
   type: string;
   description: string;
   stack: string[];
+  repoUrl: string;
   previewLabel: string;
   previewTitle: string;
   previewRows: [string, string][];
@@ -16,6 +17,7 @@ export const projects: Project[] = [
     description:
       "An AI-powered SaaS platform that transforms project ideas into a structured workflow, with clear priorities and practical next steps.",
     stack: ["Next.js", "React", "TypeScript", "Python", "FastAPI", "PostgreSQL", "Neon", "Prisma", "Qwen3 8B", "LangChain", "Ollama", "Unsloth", "AWS", "Docker", "Vercel"],
+    repoUrl: "https://github.com/x-FrizBy-x/Jelaksy-public",
     previewLabel: "TODAY · PROJECT OVERVIEW",
     previewTitle: "Product launch",
     previewRows: [["Finalize launch plan", "Today"], ["Review onboarding flow", "2:30 PM"]],
@@ -27,6 +29,7 @@ export const projects: Project[] = [
     description:
       "An AI calendar assistant that converts natural-language requests into calendar actions: creating, deleting, and rescheduling events. Reached ~70% intent accuracy on 50 test requests.",
     stack: ["Python", "FastAPI", "Llama 3.1", "Ollama", "Google Calendar API", "OAuth 2.0"],
+    repoUrl: "https://github.com/x-FrizBy-x/Agent-Lurkk",
     previewLabel: "YOUR WEEK · CALENDAR ASSISTANT",
     previewTitle: "Just say what to change.",
     previewRows: [["Move my dentist appointment to Friday", ""], ["Event rescheduled", "Fri 10:00 AM"]],
@@ -38,6 +41,7 @@ export const projects: Project[] = [
     description:
       "A safety-first desktop app that unifies inventory and updates for 8 package managers (APT, Flatpak, Snap, mise, npm, pnpm, pipx, uv), with previews, explicit confirmation, and SQLite-backed operation history.",
     stack: ["Rust", "Tauri 2", "React", "TypeScript", "Tailwind CSS", "SQLite"],
+    repoUrl: "https://github.com/x-FrizBy-x/dep-manager",
     previewLabel: "INVENTORY · 8 PACKAGE MANAGERS",
     previewTitle: "Every update, reviewed first.",
     previewRows: [["Scan all package managers", "Done"], ["Review batch update", "Preview"]],
