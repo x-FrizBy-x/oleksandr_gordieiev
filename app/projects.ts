@@ -16,7 +16,7 @@ export const projects: Project[] = [
     description:
       "An AI-powered SaaS platform that transforms project ideas into a structured workflow, with clear priorities and practical next steps.",
     stack: ["Next.js", "React", "TypeScript", "Python", "FastAPI", "PostgreSQL", "Neon", "Prisma", "Qwen3 8B", "LangChain", "Ollama", "Unsloth", "AWS", "Docker", "Vercel"],
-    previewLabel: "MONDAY · PROJECT OVERVIEW",
+    previewLabel: "TODAY · PROJECT OVERVIEW",
     previewTitle: "Product launch",
     previewRows: [["Finalize launch plan", "Today"], ["Review onboarding flow", "2:30 PM"]],
     previewInsight: "Two tasks need your attention today.",

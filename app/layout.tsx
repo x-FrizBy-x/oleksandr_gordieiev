@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { SiteFooter, SiteHeader } from "./site-chrome";
+import { siteUrl } from "./site-url";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -14,6 +15,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
+  openGraph: {
+    type: "website",
+    siteName: "Oleksandr",
+    title: "Oleksandr | Full-Stack Engineer with AI expertise",
+    description:
+      "Oleksandr builds practical AI products and full-stack software, including Jelaksy and Lurkk.",
+  },
+  twitter: { card: "summary_large_image" },
   title: {
     template: "%s | Oleksandr",
     default: "Oleksandr | Full-Stack Engineer with AI expertise",
